@@ -1,0 +1,23 @@
+
+.title {
+    /* color: rgb(100, 100, 100); */
+    margin-bottom: 15px;
+    color: transparent;
+    background-image: linear-gradient(to right, #553c9a, #ee4b2b, #00c2cb, #ff7f50, #553c9a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200%;
+    background-position: -200%;
+    animation: animated-gradient 2s alternate-reverse;
+    animation-iteration-count: 1;
+    text-align: center;
+}
+@keyframes animated-gradient {
+    to {
+        background-position: 200%;
+    }
+}
+
+.container {
+    padding: 15px;
+}

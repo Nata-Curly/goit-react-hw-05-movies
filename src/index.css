@@ -7,9 +7,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(255, 255, 255);
+  color: rgb(100, 100, 100);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* .link {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+  fill: inherit;
+} */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  padding: 15px;
 }
